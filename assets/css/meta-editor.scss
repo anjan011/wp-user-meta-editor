@@ -1,0 +1,48 @@
+.u {
+    text-decoration: underline;
+}
+
+#top-bar-fixed {
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+    .user-login {
+        color: #fff;
+        font-size: 20px;
+        
+        strong {
+            color: #f80;
+        }
+    }
+}
+
+body {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#sume-meta-list {
+    
+    textarea.form-control {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .meta-key-label {
+        font-weight: bold;
+    }
+}
+
+#new-meta-form {
+    .ajax-msg {
+        float: left;
+        margin-top: 5px;
+    }
+}
