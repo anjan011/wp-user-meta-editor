@@ -1,4 +1,4 @@
-=== WP Query Generator ===
+=== Simple User Meta Editor ===
 Contributors: anjan011
 Tags: meta,editor
 Requires at least: 3.0.1
@@ -15,7 +15,7 @@ This plugin lets site admin to add/update/delete meta data for any user from bac
 
 **Links**
 
-* <a href="https://github.com/anjan011/wp-query-generator" target="_blank">WQ Query Generator on github</a>
+* <a href="https://github.com/anjan011/wp-user-meta-editor" target="_blank">Simple User Meta Editor on github</a>
 
 == Installation ==
 
@@ -25,13 +25,12 @@ If you have installed the plugin directly from plugins repository through wordpr
 
 If you have downloaded the plugin as .zip file, then extract the zip file content and upload the directory inside your wp-content/plugins dir. Once done, go to your plugins page on wp backend, and you will then be able to activate the plugin.
 
-Once activated you can then access the plugin fetures through Tools > WP_query generator menu item
+Once activated go to user list page (normally /wp-admin/users.php), on mouse over, each user entry row will show a new action link "Meta Editor". Click on the link to access meta editor page.
 
 == Screenshots ==
 
-1. Screenshot 1: Showing the parameters UI
-2. Screenshot 2: Showing the generated codes sample
-3. Screenshot 3: Displaying sample data preview
+1. Screenshot 1: Meta Editor link in user list page
+2. Screenshot 2: Meta Editor view
 
 == Upgrade Notice ==
 
